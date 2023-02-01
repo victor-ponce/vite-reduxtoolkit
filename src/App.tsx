@@ -1,15 +1,33 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
+import MyComponent from './features/MyComponent';
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <div className="App">
-<h1>My Component</h1>
-    </div>
+    <main className='App'>
+      <MyComponent />
+    </main>
+      
+    
   )
 }
 
 export default App
+
+
+/*
+import Counter from './features/Counter';
+
+function App() {
+
+  return (
+    <main className='App'>
+      <Counter />
+    </main>
+      
+    
+  )
+}
+
+export default App
+
+*/
