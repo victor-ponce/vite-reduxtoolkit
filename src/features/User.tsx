@@ -28,6 +28,11 @@ const User = () => {
       justifyContent="center"
       alignItems="center"
       rowSpacing={2}
+      sx={{
+        bgcolor: 'background.default',
+        color: 'text.primary',
+        width: '100%',
+      }}
     >
       <h3>Login System</h3>
       <h5>User email</h5>
